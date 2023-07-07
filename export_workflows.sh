@@ -17,4 +17,4 @@ docker run \
     -e DB_POSTGRESDB_PASSWORD \
     -v $EXPORT_ROOT:/backup \
     -u node \
-    reorx/n8n-custom n8n export:workflow --backup --output=/backup/$EXPORT_DIR/
+    n8nio/n8n n8n export:workflow --backup --output=/backup/$EXPORT_DIR/
